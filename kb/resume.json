@@ -1,0 +1,307 @@
+[
+  {
+    "entry_id": "skillset.ml_frameworks",
+    "category": "skillset",
+    "key": "ml_frameworks",
+    "value": [
+      "Scikit-learn",
+      "TensorFlow",
+      "PyTorch"
+    ],
+    "data_type": "list",
+    "source_doc_id": 139978,
+    "source_path": "docs/Ryan_Abbott_Resume_05_13_2026.pdf",
+    "valid_from": "2026-05-13T21:13:02.859823Z",
+    "confidence": "high",
+    "notes": "Explicitly listed in Core Skills under Machine Learning."
+  },
+  {
+    "entry_id": "skillset.ml_specializations",
+    "category": "skillset",
+    "key": "ml_specializations",
+    "value": [
+      "Classification",
+      "Regression",
+      "NLP",
+      "LLM Fine-Tuning",
+      "Entity Resolution",
+      "Data Linkage",
+      "Forecasting",
+      "Optimization",
+      "Anomaly Detection"
+    ],
+    "data_type": "list",
+    "source_doc_id": 139978,
+    "source_path": "docs/Ryan_Abbott_Resume_05_13_2026.pdf",
+    "valid_from": "2026-05-13T21:13:02.859823Z",
+    "confidence": "high",
+    "notes": "Explicitly listed in Core Skills under Machine Learning."
+  },
+  {
+    "entry_id": "skillset.cloud_platforms",
+    "category": "skillset",
+    "key": "cloud_platforms",
+    "value": [
+      "AWS",
+      "Databricks"
+    ],
+    "data_type": "list",
+    "source_doc_id": 139978,
+    "source_path": "docs/Ryan_Abbott_Resume_05_13_2026.pdf",
+    "valid_from": "2026-05-13T21:13:02.859823Z",
+    "confidence": "high",
+    "notes": "Explicitly mentioned in Cloud/MLOps section and throughout experience."
+  },
+  {
+    "entry_id": "skillset.devops_tools",
+    "category": "skillset",
+    "key": "devops_tools",
+    "value": [
+      "Docker",
+      "GitHub Actions",
+      "CI/CD",
+      "EC2",
+      "ECR",
+      "S3",
+      "MLflow"
+    ],
+    "data_type": "list",
+    "source_doc_id": 139978,
+    "source_path": "docs/Ryan_Abbott_Resume_05_13_2026.pdf",
+    "valid_from": "2026-05-13T21:13:02.859823Z",
+    "confidence": "high",
+    "notes": "Explicitly listed in Core Skills under Cloud/MLOps."
+  },
+  {
+    "entry_id": "skillset.data_engineering_skills",
+    "category": "skillset",
+    "key": "data_engineering_skills",
+    "value": [
+      "Spark",
+      "SQL",
+      "ETL",
+      "FastAPI",
+      "APIs",
+      "Lakehouse Architecture",
+      "Data Pipelines"
+    ],
+    "data_type": "list",
+    "source_doc_id": 139978,
+    "source_path": "docs/Ryan_Abbott_Resume_05_13_2026.pdf",
+    "valid_from": "2026-05-13T21:13:02.859823Z",
+    "confidence": "high",
+    "notes": "Explicitly listed in Core Skills under Data Engineering."
+  },
+  {
+    "entry_id": "skillset.programming_languages",
+    "category": "skillset",
+    "key": "programming_languages",
+    "value": [
+      "Python",
+      "SQL",
+      "C#",
+      "JavaScript",
+      "TypeScript",
+      "React",
+      "Kotlin",
+      "Java",
+      "C++",
+      "R"
+    ],
+    "data_type": "list",
+    "source_doc_id": 139978,
+    "source_path": "docs/Ryan_Abbott_Resume_05_13_2026.pdf",
+    "valid_from": "2026-05-13T21:13:02.859823Z",
+    "confidence": "high",
+    "notes": "Explicitly listed in Core Skills under Languages."
+  },
+  {
+    "entry_id": "skillset.visualization_tools",
+    "category": "skillset",
+    "key": "visualization_tools",
+    "value": [
+      "Power BI",
+      "Streamlit",
+      "React"
+    ],
+    "data_type": "list",
+    "source_doc_id": 139978,
+    "source_path": "docs/Ryan_Abbott_Resume_05_13_2026.pdf",
+    "valid_from": "2026-05-13T21:13:02.859823Z",
+    "confidence": "high",
+    "notes": "Explicitly listed in Core Skills under Visualization/Tools."
+  },
+  {
+    "entry_id": "skillset.years_of_experience",
+    "category": "skillset",
+    "key": "years_of_experience",
+    "value": 5,
+    "data_type": "integer",
+    "source_doc_id": 139978,
+    "source_path": "docs/Ryan_Abbott_Resume_05_13_2026.pdf",
+    "valid_from": "2026-05-13T21:13:02.859823Z",
+    "confidence": "high",
+    "notes": "Stated as '5+ years of experience' in professional summary."
+  },
+  {
+    "entry_id": "skillset.current_role",
+    "category": "skillset",
+    "key": "current_role",
+    "value": "AI / ML Consultant",
+    "data_type": "string",
+    "source_doc_id": 139978,
+    "source_path": "docs/Ryan_Abbott_Resume_05_13_2026.pdf",
+    "valid_from": "2026-05-13T21:13:02.859823Z",
+    "confidence": "high",
+    "notes": "Currently employed as Independent Consultant since Apr 2026."
+  },
+  {
+    "entry_id": "skillset.security_clearance",
+    "category": "skillset",
+    "key": "security_clearance",
+    "value": "Top Secret",
+    "data_type": "string",
+    "source_doc_id": 139978,
+    "source_path": "docs/Ryan_Abbott_Resume_05_13_2026.pdf",
+    "valid_from": "2026-05-13T21:13:02.859823Z",
+    "confidence": "high",
+    "notes": "Listed in header as 'Top Secret Clearance'."
+  },
+  {
+    "entry_id": "skillset.ml_achievement_liberty_energy",
+    "category": "skillset",
+    "key": "ml_achievement_liberty_energy",
+    "value": "Deployed production ML solution achieving 96%+ accuracy generating multimillion-dollar fuel-efficiency savings",
+    "data_type": "string",
+    "source_doc_id": 139978,
+    "source_path": "docs/Ryan_Abbott_Resume_05_13_2026.pdf",
+    "valid_from": "2026-05-13T21:13:02.859823Z",
+    "confidence": "high",
+    "notes": "Explicitly stated in Liberty Energy role."
+  },
+  {
+    "entry_id": "skillset.ml_achievement_intellibridge",
+    "category": "skillset",
+    "key": "ml_achievement_intellibridge",
+    "value": "Built enterprise entity resolution platform achieving 99% F1 score for person and company matching",
+    "data_type": "string",
+    "source_doc_id": 139978,
+    "source_path": "docs/Ryan_Abbott_Resume_05_13_2026.pdf",
+    "valid_from": "2026-05-13T21:13:02.859823Z",
+    "confidence": "high",
+    "notes": "Explicitly stated in IntelliBridge role."
+  },
+  {
+    "entry_id": "skillset.ml_achievement_university",
+    "category": "skillset",
+    "key": "ml_achievement_university",
+    "value": "Designed TensorFlow CNN that doubled known rare quasar detections with 99%+ accuracy",
+    "data_type": "string",
+    "source_doc_id": 139978,
+    "source_path": "docs/Ryan_Abbott_Resume_05_13_2026.pdf",
+    "valid_from": "2026-05-13T21:13:02.859823Z",
+    "confidence": "high",
+    "notes": "Explicitly stated in University of Oklahoma research assistant role."
+  },
+  {
+    "entry_id": "schooling.degree",
+    "category": "schooling",
+    "key": "degree",
+    "value": "B.S. Astrophysics",
+    "data_type": "string",
+    "source_doc_id": 139978,
+    "source_path": "docs/Ryan_Abbott_Resume_05_13_2026.pdf",
+    "valid_from": "2026-05-13T21:13:02.859823Z",
+    "confidence": "high",
+    "notes": "Explicitly stated in Education section."
+  },
+  {
+    "entry_id": "schooling.minor",
+    "category": "schooling",
+    "key": "minor",
+    "value": "Mathematics",
+    "data_type": "string",
+    "source_doc_id": 139978,
+    "source_path": "docs/Ryan_Abbott_Resume_05_13_2026.pdf",
+    "valid_from": "2026-05-13T21:13:02.859823Z",
+    "confidence": "high",
+    "notes": "Explicitly stated in Education section."
+  },
+  {
+    "entry_id": "schooling.university",
+    "category": "schooling",
+    "key": "university",
+    "value": "University of Oklahoma",
+    "data_type": "string",
+    "source_doc_id": 139978,
+    "source_path": "docs/Ryan_Abbott_Resume_05_13_2026.pdf",
+    "valid_from": "2026-05-13T21:13:02.859823Z",
+    "confidence": "high",
+    "notes": "Explicitly stated in Education section."
+  },
+  {
+    "entry_id": "schooling.graduation_honors",
+    "category": "schooling",
+    "key": "graduation_honors",
+    "value": "Distinguished Honors",
+    "data_type": "string",
+    "source_doc_id": 139978,
+    "source_path": "docs/Ryan_Abbott_Resume_05_13_2026.pdf",
+    "valid_from": "2026-05-13T21:13:02.859823Z",
+    "confidence": "high",
+    "notes": "Explicitly stated as 'Graduated with Distinguished Honors'."
+  },
+  {
+    "entry_id": "schooling.college_gpa",
+    "category": "schooling",
+    "key": "college_gpa",
+    "value": 3.62,
+    "data_type": "float",
+    "source_doc_id": 139978,
+    "source_path": "docs/Ryan_Abbott_Resume_05_13_2026.pdf",
+    "valid_from": "2026-05-13T21:13:02.859823Z",
+    "confidence": "high",
+    "notes": "Explicitly stated as GPA: 3.62."
+  },
+  {
+    "entry_id": "skillset.certifications",
+    "category": "skillset",
+    "key": "certifications",
+    "value": [
+      "Databricks Generative AI Fundamentals",
+      "Databricks AI Security Fundamentals",
+      "Databricks Data Governance Fundamentals",
+      "Databricks Lakehouse Fundamentals"
+    ],
+    "data_type": "list",
+    "source_doc_id": 139978,
+    "source_path": "docs/Ryan_Abbott_Resume_05_13_2026.pdf",
+    "valid_from": "2026-05-13T21:13:02.859823Z",
+    "confidence": "high",
+    "notes": "Explicitly listed in Certifications section."
+  },
+  {
+    "entry_id": "hobbies.project_felonet",
+    "category": "hobbies",
+    "key": "project_felonet",
+    "value": "Convolutional neural network for identifying rare quasars",
+    "data_type": "string",
+    "source_doc_id": 139978,
+    "source_path": "docs/Ryan_Abbott_Resume_05_13_2026.pdf",
+    "valid_from": "2026-05-13T21:13:02.859823Z",
+    "confidence": "high",
+    "notes": "Explicitly listed in Projects section."
+  },
+  {
+    "entry_id": "hobbies.android_app_development",
+    "category": "hobbies",
+    "key": "android_app_development",
+    "value": "Independently designed, developed, and published Kotlin/XML mobile app to Google Play Store",
+    "data_type": "string",
+    "source_doc_id": 139978,
+    "source_path": "docs/Ryan_Abbott_Resume_05_13_2026.pdf",
+    "valid_from": "2026-05-13T21:13:02.859823Z",
+    "confidence": "high",
+    "notes": "Explicitly stated in Projects section."
+  }
+]

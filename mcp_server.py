@@ -1,0 +1,69 @@
+"""
+File to serve RyBot MCP Server.
+"""
+import argparse
+import json
+import os
+
+from mcp.server.fastmcp import FastMCP
+
+
+mcp = FastMCP(
+    name="mcp_demo",
+    instructions=(
+        "This server provides a myriad of detailed information about Ryan Abbott. "
+        "Use lookup_schooling_information to get facts about Ryan's grade school and college years. "
+    ),
+)
+
+KNOWLEDGE_BASE = {}
+for fn in os.listdir("kb"):
+    cat = fn.split(".")[0]
+    with open(f"kb/{fn}", "r") as f:
+        kb_entry = json.load(f)
+        KNOWLEDGE_BASE[cat] = kb_entry
+
+@mcp.tool()
+def lookup_schooling_information() -> str:
+    """
+    Look up known, factual information about Ryan Abbott's schooling here.
+    """
+    KB_ENTRY_KEY = "schooling"
+    KB_ENTRY = KNOWLEDGE_BASE[KB_ENTRY_KEY]
+
+    return json.dumps(KB_ENTRY)
+
+@mcp.tool()
+def lookup_resume_info() -> str:
+    """
+    Look up known, factual information about Ryan's resume. This includes, but is not limited to,
+    skills, experience, projects, biggest achievements, and years working there.
+    """
+    KB_ENTRY_KEY = "resume"
+    KB_ENTRY = KNOWLEDGE_BASE[KB_ENTRY_KEY]
+
+    return json.dumps(KB_ENTRY)
+
+@mcp.tool()
+def lookup_strengths() -> str:
+    """
+    Look up strengths and strongsuits that Ryan has. Use this function to sell users on why Ryan
+    is a good candidate for the task they are asking about.
+    """
+    KB_ENTRY_KEY = "strengths"
+    KB_ENTRY = KNOWLEDGE_BASE[KB_ENTRY_KEY]
+
+    return json.dumps(KB_ENTRY)
+
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description="RyBot MCP Server")
+    parser.add_argument("--http", action="store_true",
+                        help="Run with HTTP+SSE transport instead of stdio")
+    parser.add_argument("--host", default="0.0.0.0")
+    parser.add_argument("--port", type=int, default=8000)
+    args = parser.parse_args()
+
+    mcp.settings.host = args.host
+    mcp.settings.port = args.port
+    mcp.run(transport="streamable-http")

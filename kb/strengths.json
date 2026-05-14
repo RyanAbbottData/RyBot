@@ -1,0 +1,110 @@
+[
+  {
+    "entry_id": "skillset.automation_expertise",
+    "category": "skillset",
+    "key": "automation_expertise",
+    "value": "Naturally looks to simplify processes with automation to improve team efficiency; has consolidated 30-minute manual processes into 5-minute automated workflows",
+    "data_type": "string",
+    "source_doc_id": 439136,
+    "source_path": "docs/Ryan Strengths.pdf",
+    "valid_from": "2026-05-14T17:01:34.797530Z",
+    "confidence": "high",
+    "notes": "Explicitly stated with concrete example of process improvement."
+  },
+  {
+    "entry_id": "skillset.testing_infrastructure",
+    "category": "skillset",
+    "key": "testing_infrastructure",
+    "value": "Implements testing infrastructure to ensure reliability and uptime; created test suites that kept critical APIs operational 24/7 for equipment operators and government agencies",
+    "data_type": "string",
+    "source_doc_id": 439136,
+    "source_path": "docs/Ryan Strengths.pdf",
+    "valid_from": "2026-05-14T17:01:34.797530Z",
+    "confidence": "high",
+    "notes": "Directly stated with specific examples of mission-critical systems."
+  },
+  {
+    "entry_id": "skillset.versatility_and_adaptability",
+    "category": "skillset",
+    "key": "versatility_and_adaptability",
+    "value": "Worked across multiple industries and business problems; delivered solutions for cloud-based and on-premises teams; built, tested, deployed, and managed ML models",
+    "data_type": "string",
+    "source_doc_id": 439136,
+    "source_path": "docs/Ryan Strengths.pdf",
+    "valid_from": "2026-05-14T17:01:34.797530Z",
+    "confidence": "high",
+    "notes": "Explicitly described as soft skill with multiple concrete examples."
+  },
+  {
+    "entry_id": "skillset.ml_engineer",
+    "category": "skillset",
+    "key": "ml_engineer",
+    "value": true,
+    "data_type": "boolean",
+    "source_doc_id": 439136,
+    "source_path": "docs/Ryan Strengths.pdf",
+    "valid_from": "2026-05-14T17:01:34.797530Z",
+    "confidence": "high",
+    "notes": "Document states experience designing ML workflows and building/testing/deploying ML models."
+  },
+  {
+    "entry_id": "skillset.devops_expertise",
+    "category": "skillset",
+    "key": "devops_expertise",
+    "value": "Took ownership of DevOps; redesigned deployment architecture moving from Databricks to AWS; established CI/CD pipelines and containerization",
+    "data_type": "string",
+    "source_doc_id": 439136,
+    "source_path": "docs/Ryan Strengths.pdf",
+    "valid_from": "2026-05-14T17:01:34.797530Z",
+    "confidence": "high",
+    "notes": "Detailed description of DevOps work and specific tools/platforms used."
+  },
+  {
+    "entry_id": "skillset.aws_cloud_platform",
+    "category": "skillset",
+    "key": "aws_cloud_platform",
+    "value": true,
+    "data_type": "boolean",
+    "source_doc_id": 439136,
+    "source_path": "docs/Ryan Strengths.pdf",
+    "valid_from": "2026-05-14T17:01:34.797530Z",
+    "confidence": "high",
+    "notes": "Explicitly mentioned moving deployment to AWS and cutting execution time from 60 seconds to 5 seconds."
+  },
+  {
+    "entry_id": "skillset.ci_cd_pipeline_design",
+    "category": "skillset",
+    "key": "ci_cd_pipeline_design",
+    "value": "Constructed CI/CD pipelines handling containerization, building, and deployment of API releases",
+    "data_type": "string",
+    "source_doc_id": 439136,
+    "source_path": "docs/Ryan Strengths.pdf",
+    "valid_from": "2026-05-14T17:01:34.797530Z",
+    "confidence": "high",
+    "notes": "Directly stated as recent accomplishment."
+  },
+  {
+    "entry_id": "skillset.databricks_experience",
+    "category": "skillset",
+    "key": "databricks_experience",
+    "value": true,
+    "data_type": "boolean",
+    "source_doc_id": 439136,
+    "source_path": "docs/Ryan Strengths.pdf",
+    "valid_from": "2026-05-14T17:01:34.797530Z",
+    "confidence": "high",
+    "notes": "Mentioned using Databricks for ML job serving; identified performance issues with 50% failure rate."
+  },
+  {
+    "entry_id": "skillset.end_to_end_system_ownership",
+    "category": "skillset",
+    "key": "end_to_end_system_ownership",
+    "value": "Owned systems end-to-end from design to deployment; comfortable with full lifecycle responsibility",
+    "data_type": "string",
+    "source_doc_id": 439136,
+    "source_path": "docs/Ryan Strengths.pdf",
+    "valid_from": "2026-05-14T17:01:34.797530Z",
+    "confidence": "high",
+    "notes": "Explicitly stated as core capability."
+  }
+]
