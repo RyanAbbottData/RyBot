@@ -6,7 +6,6 @@
 ![Anthropic SDK](https://img.shields.io/badge/Anthropic%20SDK-0.100.0-blueviolet?logo=anthropic)
 ![FastMCP](https://img.shields.io/badge/FastMCP-1.27.1-orange)
 ![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Cross--platform-lightgrey)
-![License](https://img.shields.io/badge/License-MIT-green)
 
 ---
 
