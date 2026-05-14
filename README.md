@@ -92,39 +92,9 @@ Each tool returns structured, confidence-scored data extracted directly from sou
 3. **Validate** — Pydantic models enforce schema correctness before anything is written to disk.
 4. **Persist** — Validated entries are saved to category-specific JSON files under `kb/` (e.g., `kb/resume.json`, `kb/schooling.json`).
 
-Run this pipeline any time source documents change:
-```bash
-python add_to_kb.py
-```
-
 ### MCP Server
 
 The server is built with **FastMCP**, which turns plain Python functions into MCP-compliant tools with zero boilerplate. It runs over HTTP with Server-Sent Events (SSE) so any MCP-capable client (Claude.ai, Claude Code, custom apps) can connect and call tools in real time.
-
-```python
-@mcp.tool()
-def lookup_resume_info() -> list[KBEntry]:
-    """Returns structured professional experience and skills."""
-    return load_kb("resume")
-```
-
-Start the server:
-```bash
-python mcp_server.py        # localhost:8000
-```
-
-Expose it publicly via Cloudflare Tunnel:
-```bash
-tunnel.bat                  # generates a public HTTPS URL, no account required
-```
-
----
-
-## Demo
-
-> **Live demo available on request.**
->
-> The server runs locally and is exposed via Cloudflare Tunnel when active. Permanent cloud hosting (Railway / Render) is planned for a future release. Reach out via [LinkedIn](https://www.linkedin.com/in/ryanabbottdata) or open an issue to schedule a live walkthrough.
 
 ---
 
@@ -159,54 +129,17 @@ RyBot/
 
 ---
 
-## Getting Started
-
-**Prerequisites:** Python 3.13+, an [Anthropic API key](https://console.anthropic.com)
-
-```bash
-# 1. Clone the repo
-git clone https://github.com/RyanAbbottData/RyBot.git
-cd RyBot
-
-# 2. Create and activate a virtual environment
-python -m venv rybot_venv
-rybot_venv\Scripts\activate       # Windows
-# source rybot_venv/bin/activate  # macOS / Linux
-
-# 3. Install dependencies
-pip install anthropic fastmcp pydantic pdfplumber python-dotenv uvicorn starlette
-
-# 4. Configure your API key
-echo ANTHROPIC_API_KEY=your_key_here > .env
-
-# 5. (Optional) Re-ingest documents to rebuild the knowledge base
-python add_to_kb.py
-
-# 6. Start the MCP server
-python mcp_server.py
-# Server runs at http://localhost:8000
-
-# 7. (Optional) Expose publicly via Cloudflare Tunnel
-tunnel.bat
-```
-
-Connect any MCP-compatible client to `http://localhost:8000` (or the tunnel URL) and start querying.
-
----
-
 ## Roadmap
 
-- [ ] Web UI / chat interface (Next.js or Streamlit)
-- [ ] Permanent cloud hosting (Railway or Render)
 - [ ] Additional KB categories (personal projects, interests, open-source contributions)
+- [ ] Validation suite that runs before each deployment
 - [ ] Conversational memory across sessions
-- [ ] `requirements.txt` for one-command dependency install
 
 ---
 
 ## Author
 
-**Ryan Abbott** — ML Engineer & Data Scientist
+**Ryan Abbott** — AI Engineer | ML Engineer | Software Engineer
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ryanabbottdata)
 [![GitHub](https://img.shields.io/badge/GitHub-RyanAbbottData-181717?logo=github&logoColor=white)](https://github.com/RyanAbbottData)
