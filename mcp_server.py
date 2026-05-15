@@ -5,6 +5,7 @@ import argparse
 import json
 import os
 
+from dotenv import load_dotenv
 from mcp.server.fastmcp import FastMCP
 from starlette.responses import PlainTextResponse
 
@@ -62,13 +63,9 @@ def lookup_strengths() -> str:
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="RyBot MCP Server")
-    parser.add_argument("--http", action="store_true",
-                        help="Run with HTTP+SSE transport instead of stdio")
-    parser.add_argument("--host", default="0.0.0.0")
-    parser.add_argument("--port", type=int, default=8000)
-    args = parser.parse_args()
+    PORT = os.getenv("PORT", "8000")
+    HOST = os.getenv("RENDER_EXTERNAL_HOSTNAME", "localhost")
 
-    mcp.settings.host = args.host
-    mcp.settings.port = args.port
+    mcp.settings.host = HOST
+    mcp.settings.port = PORT
     mcp.run(transport="streamable-http")
