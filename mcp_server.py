@@ -1,12 +1,12 @@
 """
 File to serve RyBot MCP Server.
 """
-import argparse
 import json
 import os
 
 from dotenv import load_dotenv
 from mcp.server.fastmcp import FastMCP
+from mcp.server.transport_security import TransportSecuritySettings
 from starlette.responses import PlainTextResponse
 
 
@@ -16,6 +16,7 @@ mcp = FastMCP(
         "This server provides a myriad of detailed information about Ryan Abbott. "
         "Use lookup_schooling_information to get facts about Ryan's grade school and college years. "
     ),
+    transport_security=TransportSecuritySettings(enable_dns_rebinding_protection=False),
 )
 
 KNOWLEDGE_BASE = {}
@@ -67,5 +68,4 @@ if __name__ == "__main__":
 
     mcp.settings.host = "0.0.0.0"
     mcp.settings.port = PORT
-    mcp.settings.allowed_hosts = ["*"]
     mcp.run(transport="streamable-http")
