@@ -6,6 +6,7 @@ import json
 import os
 
 from mcp.server.fastmcp import FastMCP
+from starlette.responses import PlainTextResponse
 
 
 mcp = FastMCP(
@@ -22,6 +23,10 @@ for fn in os.listdir("kb"):
     with open(f"kb/{fn}", "r") as f:
         kb_entry = json.load(f)
         KNOWLEDGE_BASE[cat] = kb_entry
+
+@mcp.custom_route("/health", methods=["GET"])
+async def health(request):
+    return PlainTextResponse("ok")
 
 @mcp.tool()
 def lookup_schooling_information() -> str:
