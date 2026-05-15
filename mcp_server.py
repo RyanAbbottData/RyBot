@@ -63,7 +63,7 @@ def lookup_strengths() -> str:
 
 
 if __name__ == "__main__":
-    PORT = os.getenv("PORT", "8000")
+    PORT = os.getenv("PORT", 8000)
     HOST = os.getenv("RENDER_EXTERNAL_HOSTNAME", "localhost")
 
     mcp.settings.host = HOST
