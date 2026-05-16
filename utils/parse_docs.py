@@ -3,6 +3,7 @@ from pathlib import Path
 from datetime import datetime
 
 import pdfplumber
+from markdown_it import MarkdownIt
 import numpy as np
 
 from models.raw_doc import RawDocument
@@ -40,5 +41,28 @@ def parse_pdf(file_path: str, source: str = "local") -> RawDocument:
         size_bytes=FILE_SIZE
     )
 
+
+    return raw_doc
+
+def parse_md(file_path: str, source: str = "local") -> RawDocument:
+    with open(file_path, "rb") as f:
+        raw_text = f.read()
+
+    DOC_ID = np.random.randint(100000, 1000000)
+    PATH = Path(file_path)
+    FILE_TYPE = "md"
+    CURRENT_TIME = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    FILE_SIZE = len(raw_text)
+
+    raw_doc = RawDocument(
+        doc_id=DOC_ID,
+        source=source,
+        source_path=file_path,
+        filename=PATH.name,
+        file_type=FILE_TYPE,
+        text=raw_text,
+        last_modified=CURRENT_TIME,
+        size_bytes=FILE_SIZE
+    )
 
     return raw_doc

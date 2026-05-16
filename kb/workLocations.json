@@ -1,0 +1,85 @@
+[
+  {
+    "entry_id": "skillset.ai_machine_learning_consulting",
+    "category": "skillset",
+    "key": "ai_machine_learning_consulting",
+    "value": "Provided AI and machine learning consultation for a large global enterprise starting April 2026",
+    "data_type": "string",
+    "source_doc_id": 638505,
+    "source_path": "docs/Ryan's history of working conditions_locations.pdf",
+    "valid_from": "2026-05-16T20:59:28.816559Z",
+    "confidence": "high",
+    "notes": "Explicitly stated work experience in AI/ML consulting."
+  },
+  {
+    "entry_id": "skillset.freelance_web_development",
+    "category": "skillset",
+    "key": "freelance_web_development",
+    "value": "Freelance web development for a local business starting May 2026",
+    "data_type": "string",
+    "source_doc_id": 638505,
+    "source_path": "docs/Ryan's history of working conditions_locations.pdf",
+    "valid_from": "2026-05-16T20:59:28.816559Z",
+    "confidence": "high",
+    "notes": "Explicitly stated freelance work starting in May 2026."
+  },
+  {
+    "entry_id": "skillset.remote_work_experience",
+    "category": "skillset",
+    "key": "remote_work_experience",
+    "value": true,
+    "data_type": "boolean",
+    "source_doc_id": 638505,
+    "source_path": "docs/Ryan's history of working conditions_locations.pdf",
+    "valid_from": "2026-05-16T20:59:28.816559Z",
+    "confidence": "high",
+    "notes": "Multiple remote positions documented: IntelliBridge and AI/ML consulting."
+  },
+  {
+    "entry_id": "skillset.in_person_work_experience",
+    "category": "skillset",
+    "key": "in_person_work_experience",
+    "value": true,
+    "data_type": "boolean",
+    "source_doc_id": 638505,
+    "source_path": "docs/Ryan's history of working conditions_locations.pdf",
+    "valid_from": "2026-05-16T20:59:28.816559Z",
+    "confidence": "high",
+    "notes": "In-person work at Liberty Energy confirmed."
+  },
+  {
+    "entry_id": "skillset.work_history",
+    "category": "skillset",
+    "key": "work_history",
+    "value": [
+      {
+        "employer": "IntelliBridge",
+        "location": "Norman, Oklahoma / Oklahoma City",
+        "work_type": "remote",
+        "end_date": "April 2025"
+      },
+      {
+        "employer": "Liberty Energy",
+        "location": "El Reno, Oklahoma",
+        "work_type": "in-person",
+        "start_date": "April 2025"
+      },
+      {
+        "employer": "AI/ML Consulting",
+        "work_type": "remote",
+        "start_date": "April 2026"
+      },
+      {
+        "employer": "Freelance Web Development",
+        "work_type": "remote",
+        "start_date": "May 2026"
+      }
+    ],
+    "data_type": "list",
+    "source_doc_id": 638505,
+    "source_path": "docs/Ryan's history of working conditions_locations.pdf",
+    "valid_from": "2026-05-16T20:59:28.816559Z",
+    "confidence": "high",
+    "notes": "Complete work history extracted with available dates and locations."
+  }
+]

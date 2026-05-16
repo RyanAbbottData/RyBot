@@ -62,6 +62,25 @@ def lookup_strengths() -> str:
 
     return json.dumps(KB_ENTRY)
 
+@mcp.tool()
+def lookup_rybot() -> str:
+    """
+    Look up information about the RyBot project here.
+    """
+    KB_ENTRY_KEY = "rybotProjectDescription"
+    KB_ENTRY = KNOWLEDGE_BASE[KB_ENTRY_KEY]
+
+    return json.dumps(KB_ENTRY)
+
+@mcp.tool()
+def lookup_work_locations() -> str:
+    """
+    Look up where Ryan has and is willing to work here
+    """
+    KB_ENTRY_KEY = "workLocations"
+    KB_ENTRY = KNOWLEDGE_BASE[KB_ENTRY_KEY]
+
+    return json.dumps(KB_ENTRY)
 
 if __name__ == "__main__":
     PORT = int(os.getenv("PORT", 8000))
