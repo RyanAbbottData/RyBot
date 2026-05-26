@@ -73,6 +73,16 @@ def lookup_rybot() -> str:
     return json.dumps(KB_ENTRY)
 
 @mcp.tool()
+def lookup_mycode() -> str:
+    """
+    Look up information about the MyCode project here.
+    """
+    KB_ENTRY_KEY = "myCodeProjectDescription"
+    KB_ENTRY = KNOWLEDGE_BASE[KB_ENTRY_KEY]
+
+    return json.dumps(KB_ENTRY)
+
+@mcp.tool()
 def lookup_work_locations() -> str:
     """
     Look up where Ryan has and is willing to work here

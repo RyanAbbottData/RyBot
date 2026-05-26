@@ -1,0 +1,78 @@
+[
+  {
+    "entry_id": "skillset.built_mycode_tool",
+    "category": "skillset",
+    "key": "built_mycode_tool",
+    "value": "Built MyCode, a style-aware code generation tool that analyzes codebases to extract coding style and generates new code matching it",
+    "data_type": "string",
+    "source_doc_id": 108980,
+    "source_path": "docs/MyCode README.pdf",
+    "valid_from": "2026-05-26T18:11:41.608907Z",
+    "confidence": "high",
+    "notes": "Directly stated as the main project in the document."
+  },
+  {
+    "entry_id": "skillset.mycode_core_capabilities",
+    "category": "skillset",
+    "key": "mycode_core_capabilities",
+    "value": {
+      "style_analysis": "Analyzes naming conventions, type annotation style, import grouping, docstring format, error handling patterns",
+      "code_generation": "Generates code that matches extracted style profiles",
+      "backend_support": "Supports Claude, OpenAI, local LLMs, and MCP servers"
+    },
+    "data_type": "dict",
+    "source_doc_id": 108980,
+    "source_path": "docs/MyCode README.pdf",
+    "valid_from": "2026-05-26T18:11:41.608907Z",
+    "confidence": "high",
+    "notes": "Extracted from the 'What it does' section describing MyCode functionality."
+  },
+  {
+    "entry_id": "skillset.mycode_architecture",
+    "category": "skillset",
+    "key": "mycode_architecture",
+    "value": "Built as a library with clean library functions for analyzer and generator, pluggable backend system, CLI and Python API interfaces",
+    "data_type": "string",
+    "source_doc_id": 108980,
+    "source_path": "docs/MyCode README.pdf",
+    "valid_from": "2026-05-26T18:11:41.608907Z",
+    "confidence": "high",
+    "notes": "Explicitly stated that it is built to slot into larger agentic systems with clean architecture."
+  },
+  {
+    "entry_id": "skillset.language_expertise",
+    "category": "skillset",
+    "key": "language_expertise",
+    "value": "Python",
+    "data_type": "string",
+    "source_doc_id": 108980,
+    "source_path": "docs/MyCode README.pdf",
+    "valid_from": "2026-05-26T18:11:41.608907Z",
+    "confidence": "high",
+    "notes": "MyCode is a Python tool with Python 3.10+ requirement and Python API."
+  },
+  {
+    "entry_id": "skillset.ai_ml_integration",
+    "category": "skillset",
+    "key": "ai_ml_integration",
+    "value": "Experience integrating multiple LLM backends including Anthropic Claude, OpenAI, local LLMs, and MCP servers",
+    "data_type": "string",
+    "source_doc_id": 108980,
+    "source_path": "docs/MyCode README.pdf",
+    "valid_from": "2026-05-26T18:11:41.608907Z",
+    "confidence": "high",
+    "notes": "Demonstrated through the multiple backend implementations in MyCode."
+  },
+  {
+    "entry_id": "skillset.distributed_systems_experience",
+    "category": "skillset",
+    "key": "distributed_systems_experience",
+    "value": "Built MCP (Model Context Protocol) server support and client-server architecture for multi-project agentic setups",
+    "data_type": "string",
+    "source_doc_id": 108980,
+    "source_path": "docs/MyCode README.pdf",
+    "valid_from": "2026-05-26T18:11:41.608907Z",
+    "confidence": "high",
+    "notes": "MyCode supports delegating operations to remote MCP servers."
+  }
+]
